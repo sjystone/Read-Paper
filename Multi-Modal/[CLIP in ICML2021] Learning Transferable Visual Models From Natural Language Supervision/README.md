@@ -29,8 +29,10 @@ When testing, the words of the objective set will send into a prompt, such as 'A
 
 ## 3. Experiments
 
+<p align="center">
 <img src="./figures/fig2.jpg" alt="overall training architecture, width" style="zoom:30%;" />
-
+</p>
+  
 The authors carried out numerous task-related experiments and ambulation studies. Here present the most amazing one. CLIP(which uses ViT-L as the image encoder) achieves the same performance on ImageNet as ResNet101. However, when transferring to other datasets, such as ObjectNet and ImageNet Adversarial, the effect of CLIP is significantly greater than ResNet101. To summarize, CLIP gained strong semantic information by combining text information, which greatly improved its Zero-shot transfer ability.
 
 
