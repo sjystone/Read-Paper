@@ -15,7 +15,7 @@ To overcome the limitations mentioned above, authors first create a larger datas
 
 ### 2.1 Dataset
 
-The presented datasets are not suitable for CLIP training. MS-COCO and Visual Genome are both high-quality crowed-labeled but small by modern standards. In YFCC100M, the metadata for each image is sparse and of varying quality. To satisfy the huge demand for data, the authors constructed a new dataset of 400 million image-text pairs named WIT.
+The present datasets are not suitable for CLIP training. MS-COCO and Visual Genome are both high-quality crowed-labeled but small by modern standards. In YFCC100M, the metadata for each image is sparse and of varying quality. To satisfy the huge demand for data, the authors constructed a new dataset of 400 million image-text pairs named WIT.
 
 ### 2.2 Overall Architecture
 
