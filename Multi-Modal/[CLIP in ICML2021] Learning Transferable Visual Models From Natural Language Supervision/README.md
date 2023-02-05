@@ -19,7 +19,7 @@ The presented datasets are not suitable for CLIP training. MS-COCO and Visual Ge
 
 ### 2.2 Overall Architecture
 
-<img src="./figures/fig1.jpg" alt="overall training architecture, width=10" style="zoom:30%;" />
+<img src="./figures/fig1.jpg" alt="overall training architecture, width" style="zoom:10%;" />
 
 CLIP consists of an image encoder(such as ResNet, or ViT) and a Text encoder(Transformer-based) without the pre-trained parameters. Considering the large amount of 400 million pairs, the authors train the CLIP to predict only which text should be paired with which image. By applying this contrastive learning paradigm, the training complexity and the resource consumption are significantly reduced. As shown in the figure, the elements on the diagonal of the matrix are positive samples, and the others are negative samples. The image Encoder and the Text Encoder will output the embedding vectors of images and text respectively. These two vectors will pass through a linear projection to map from each encoder's representation to the multi-modal embedding space. As to the target function, CLIP aims to minimize the Cosine Similarity between the two embeddings. It is worth noting that CLIP only applies random square crops to augment the data.
 
