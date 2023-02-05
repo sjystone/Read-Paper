@@ -1,4 +1,3 @@
----
 In the past decade, Neural Networks show powerful ability in such CV and NLP fields. However, in reality, text data and image data often interact. That is, combining the image and text information is a way of thinking closely to humans. Moreover, using the linear layer, most present classification models are trained to predict a fixed set of predetermined objects. This restriction limits their generality. OpenAI Proposes CLIP, a multimodal model trained using image-text pairs to break these deficiencies.
 ---
 
