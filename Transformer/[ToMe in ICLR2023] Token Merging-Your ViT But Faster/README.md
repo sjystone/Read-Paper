@@ -12,8 +12,6 @@ The Token Merging is applied between the attention and MLP branches of each Tran
 <img src="./figures/fig1.jpg" alt="Bipartite Soft Matching" width="500" style="zoom:10%;" />
 </p>
 
-
-
 The algorithm is as follows:
 
 1. Partition the tokens into two sets **A** and **B** of roughly equal size.
