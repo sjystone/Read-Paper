@@ -9,7 +9,7 @@ Since ViT appeared, Transformer-based vision models have been pushed to an unpre
 The Token Merging is applied between the attention and MLP branches of each Transformer block. First, the authors attempt to calculate the token's similarity between K/Q/V through different distance functions and apply different head aggregations to fuse the tokens. The results show that using a cosine similarity between the keys of each token and applying concatenation (which has close performance with mean function but faster) to fuse the similar tokens is the best choice. Then, the authors propose Token Merging based on Bipartite Soft Matching, a gradual and fast way to reduce *r* tokens in each Transformer layer. 
 
 <p align="center">
-<img src="./figures/fig1.png" alt="Bipartite Soft Matching" width="700" style="zoom:10%;" />
+<img src="./figures/fig1.png" alt="Bipartite Soft Matching" width="800" style="zoom:10%;" />
 </p>
 
 The algorithm is as follows:
